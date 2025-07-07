@@ -1,0 +1,74 @@
+/* ===============================
+   Main Stylesheet (style.css)
+   =============================== */
+
+
+/* 🌐 Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap');
+
+
+/* 🎨 Core Styles */
+@import url('colors.css');
+@import url('components.css');
+@import url('sections.css');
+
+
+/* 📄 Page Styles */
+@import url('pages/home.css');
+@import url('pages/about-us/about-us.css');
+@import url('pages/what-we-do/what-we-do.css');
+@import url('pages/projects.css');
+@import url('pages/workflow.css');
+@import url('pages/industries-partners.css');
+@import url('pages/quality.css');
+@import url('pages/contact.css');
+@import url('pages/terms-conditions.css');
+@import url('pages/careers.css');
+@import url('pages/privacy.css');
+@import url('pages/disclaimer.css');
+
+/* 🧱 About us  - Subpages */
+@import url('pages/about-us/who-we-are.css');
+@import url('pages/about-us/our-mission.css');
+@import url('pages/about-us/our-expertise.css');
+@import url('pages/about-us/our-team.css');
+@import url('pages/about-us/our-history.css');
+
+/* 🧱 What We Do - Subpages */
+@import url('pages/what-we-do/casting/casting.css');
+@import url('pages/what-we-do/casting/casting-matrix.css');
+@import url('pages/what-we-do/casting/investment-casting.css');
+@import url('pages/what-we-do/casting/shell-moulding-cast.css');
+@import url('pages/what-we-do/casting/sand-casting.css');
+@import url('pages/what-we-do/casting/gravity-die-casting.css');
+@import url('pages/what-we-do/casting/lost-foam-casting.css');
+@import url('pages/what-we-do/casting/high-pressure-die-casting.css');
+@import url('pages/what-we-do/casting/sintering.css');
+
+@import url('pages/what-we-do/forging.css');
+@import url('pages/what-we-do/forging/closed-die-forging.css');
+@import url('pages/what-we-do/forging/open-die-forging.css');
+@import url('pages/what-we-do/forging/cold-forging.css');
+@import url('pages/what-we-do/forging/seamless-and-rolled-ring-forgings.css');
+@import url('pages/what-we-do/forging/multi-direction-forging.css');
+
+@import url('pages/what-we-do/add-value.css');
+@import url('pages/what-we-do/add-value/assemblies.css');
+@import url('pages/what-we-do/add-value/surface-finishing.css');
+@import url('pages/what-we-do/add-value/machining.css');
+@import url('pages/what-we-do/add-value/3d-printed-cores-for-casting.css');
+@import url('pages/what-we-do/add-value/3d-metal-printing.css');
+
+@import url('pages/what-we-do/logistics.css');
+@import url('pages/what-we-do/logistics/supply-chain-management.css');
+@import url('pages/what-we-do/logistics/warehouse-product-stock-keeping.css');
+
+/* Evita rolagem horizontal */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+

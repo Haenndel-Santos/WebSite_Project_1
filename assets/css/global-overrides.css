@@ -1,0 +1,170 @@
+/* =========================
+   GLOBAL OVERRIDES
+   Applies to all pages
+========================= */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+a {
+    transition: color 0.3s, background-color 0.3s;
+    text-decoration: none;
+}
+
+button,
+.project-box a,
+.highlight-box a,
+.hero-btn {
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+}
+
+/* =========================
+   VISIBILITY MANAGEMENT
+   Desktop vs Mobile
+========================= */
+
+.main-header,
+.mobile-header {
+    position: relative;
+    z-index: 10;
+}
+
+/* Desktop visível, mobile escondido */
+@media (min-width: 992px) {
+
+    .mobile-header,
+    .mobile-nav,
+    .mobile-hero,
+    .mobile-footer,
+    .mobile-top-stripe {
+        display: none !important;
+    }
+
+    .main-header,
+    .header-top-stripe,
+    .hero-split {
+        display: flex !important;
+    }
+}
+
+/* Mobile visível, desktop escondido */
+@media (max-width: 991px) {
+
+    .main-header,
+    .header-top-stripe,
+    .hero,
+    .hero-split,
+    .project-highlights,
+    .footer-container,
+    .bottombar {
+        display: none !important;
+    }
+
+    .mobile-header,
+    .mobile-nav,
+    .mobile-hero,
+    .mobile-footer,
+    .mobile-top-stripe {
+        display: block !important;
+    }
+}
+
+/* =========================
+   RESPONSIVE OPTIMIZATION
+========================= */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .project-box a,
+    .highlight-box a,
+    .hero-box a,
+    .hero-btn {
+        font-size: 0.95rem;
+        padding: 10px 16px;
+    }
+
+    .hero-split {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-split-slider {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .hero-btn {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .project-box,
+    .highlight-box,
+    .hero-box,
+    .info-box,
+    .footer-column {
+        padding: 16px;
+    }
+
+    .project-box a,
+    .highlight-box a,
+    .hero-btn {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    .bottom-bar-text {
+        font-size: 10px;
+    }
+}

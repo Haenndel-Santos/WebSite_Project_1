@@ -1,0 +1,86 @@
+/* =========================
+   MOBILE HEADER & NAVIGATION
+========================= */
+
+.mobile-top-stripe {
+  height: 5px;
+  background-color: #37b437;
+}
+
+.mobile-header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.mobile-logo img {
+  height: 40px;
+  margin: 0 auto;
+  display: block;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  display: none;
+  background-color: #f0f2f8;
+  padding: 20px;
+}
+
+.mobile-nav.active {
+  display: block;
+}
+
+.mobile-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-nav li {
+  margin-bottom: 10px;
+}
+
+.submenu {
+  display: none;
+  margin-left: 15px;
+}
+
+.submenu.open {
+  display: block;
+}
+
+.submenu-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.submenu-toggle.rotated {
+  transform: rotate(180deg);
+}
+
+/* =========================
+   HERO + FOOTER MOBILE
+========================= */
+
+.mobile-hero img {
+  width: 100%;
+  display: block;
+}
+
+.mobile-footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}

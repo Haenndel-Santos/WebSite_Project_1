@@ -1,0 +1,26 @@
+/* ===============================
+   PÁGINA: Disclaimer
+   Arquivo: /dev/assets/css/pages/disclaimer.css
+   =============================== */
+
+.page-container {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    color: var(--eds-primary);
+    margin-bottom: 20px;
+}
+
+.page-subtitle {
+    font-size: 1.2rem;
+    color: var(--eds-gray-mid);
+    margin-bottom: 40px;
+}
+
+.page-section {
+    margin-bottom: 60px;
+}

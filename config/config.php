@@ -1,0 +1,1 @@
+<?php // configuração global do site ?>
