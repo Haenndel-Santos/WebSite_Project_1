@@ -1,0 +1,38 @@
+# 🖥️ Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# ⚙️ Arquivos de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 📋 Logs e temporários
+*.log
+*.bak
+*.tmp
+
+# 🔐 Dados sensíveis e de configuração
+.env
+config/database.php
+config/credentials.php
+
+# 🗃️ Pastas de cache ou sessões
+cache/
+tmp/
+sessions/
+
+# 📦 Pastas de build ou dependências (se forem adicionadas futuramente)
+node_modules/
+vendor/
+dist/
+build/
+
+# 💾 Backups antigos
+*.zip
+*.tar
+*.tar.gz
+
+# 📁 Uploads locais de teste (se existirem)
+uploads/
